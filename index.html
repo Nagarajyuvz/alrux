@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Arolax AI Agency</title>
+
+    <!-- Include Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- Include AOS (Animate On Scroll) for scroll animations -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+
+    <!-- Link to main CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar Section -->
+    <header id="navbar" class="navbar">
+        <nav>
+            <div class="logo">
+                <a href="#">Arolax</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 data-aos="fade-up">Your AI-powered Digital Agency</h1>
+            <p data-aos="fade-up" data-aos-delay="500">We specialize in AI solutions that help your business grow.</p>
+            <a href="#services" class="cta-btn" data-aos="fade-up" data-aos-delay="1000">Explore Our Services</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2 data-aos="fade-up">Our Services</h2>
+        <div class="service-cards">
+            <!-- Service 1 -->
+            <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                <i class="fas fa-robot"></i>
+                <h3>AI Consulting</h3>
+                <p>We provide expert AI consulting services tailored to your business.</p>
+            </div>
+            <!-- Service 2 -->
+            <div class="service-card" data-aos="fade-up" data-aos-delay="600">
+                <i class="fas fa-cogs"></i>
+                <h3>AI Solutions</h3>
+                <p>End-to-end AI solutions for automation and optimization.</p>
+            </div>
+            <!-- Service 3 -->
+            <div class="service-card" data-aos="fade-up" data-aos-delay="900">
+                <i class="fas fa-chart-line"></i>
+                <h3>Data Analysis</h3>
+                <p>Transform your data into actionable insights with AI-powered analytics.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 data-aos="fade-up">About Us</h2>
+        <p data-aos="fade-up" data-aos-delay="500">We are an AI agency focused on transforming businesses with cutting-edge AI technologies.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="POST">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="cta-btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Arolax AI Agency. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Link to main JS file -->
+    <script src="app.js"></script>
+    <!-- Include AOS library for scrolling animations -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        // Initialize AOS (Animate on Scroll)
+        AOS.init();
+    </script>
+</body>
+</html>
